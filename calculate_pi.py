@@ -1,7 +1,7 @@
 #Estimate pi , given that you have random (0,1)
 import random
 
-def estimate_pi(n)
+def estimate_pi(n):
     num_point_circle = 0
     num_point_total = 0
     for _ in range(n):
@@ -13,5 +13,3 @@ def estimate_pi(n)
             num_point_total += 1
         
         return 4 * num_point_circle/num_point_total
-
-#for some reason it will not run the code in my terminal, line 15 is an issue.
